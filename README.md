@@ -1,5 +1,5 @@
 # singload
-Reduce load-balancing complexity by routing traffic to a single node.
+Reduce load-balancing complexity by routing HTTP requests to a single node.
 
 ## Description
 Routing traffic to multiple nodes using a load-balancer increases your system's complexity, and singload solves exactly that problem.  
