@@ -24,7 +24,7 @@ singload --address 'some.address.com'
 ```
 Run singload and specify an IP address
 ```shell
-singload --ip '10.10.55.55'
+singload --address '10.10.55.55'
 ```
 
 ## Contributing
