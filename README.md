@@ -31,3 +31,6 @@ singload --address '10.10.55.55'
 1. Run `dig +short github.com` and copy the IP
 2. Open chrome and paste the IP with the suffix as follows: `addr_you_copied_here/wohb/singload/issues`
 3. Create an issue describing why you love system complexity
+
+## Idea by
+[Dor Elias](https://www.linkedin.com/in/dor-elias-606b30163/)
