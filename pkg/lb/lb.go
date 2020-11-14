@@ -34,6 +34,7 @@ func (lb *LoadBalancer) Run() error {
 
 	http.HandleFunc("/", func(w http.ResponseWriter, req *http.Request) {
 		req.Host = req.URL.Host
+		w.Header().Add("X-Distributed-Systems-Are-Good", "False")
 		proxy.ServeHTTP(w, req)
 	})
 
